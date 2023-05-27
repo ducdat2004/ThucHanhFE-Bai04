@@ -1,0 +1,350 @@
+.main
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1500px;
+}
+.top
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1105px;
+    border: green solid;
+}
+.dong1 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 1000px;
+}
+.dong1 ul 
+{
+    display: flex;
+    flex-direction: row;
+}
+.dong1 ul li
+{
+    list-style: none;
+    padding: 10px;
+    font-weight: 600;
+    /* margin: auto; */
+    background-color: #ffffff;
+}
+
+.dong1 input {
+    height: 30px;
+    width: 180px;
+
+}
+.dong1 ul li:hover
+{
+    cursor: pointer;
+    background-color: blanchedalmond;
+}
+.ql2hang
+{
+    display: flex;
+    flex-direction: column;
+    border-bottom: green solid;
+}
+
+.dong2
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 1000px;
+    background-color: #f69631;
+}
+.dong2 ul 
+{
+    display: flex;
+    flex-direction: row;
+}
+.dong2 ul li
+{
+    list-style: none;
+    padding: 10px;
+    font-weight: 600;
+    /* margin: auto; */
+}
+
+.dong2 img
+{
+    border-radius: 10%;
+    background-color: #ebcba9;
+}
+
+.dong2 .icon
+{
+   
+    margin: 10px;
+}
+.dong2 .icon img
+{
+    padding: 5px;
+}
+.dong2 ul li:hover
+{
+    cursor: pointer;
+    background-color: blanchedalmond;
+}
+.dong2 .icon img:hover
+{
+    cursor: pointer;
+    background-color: blanchedalmond;
+}
+.banner
+{
+    width: 1103px;
+}
+.msi
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border: solid #ffffff;
+    border-bottom: green solid;
+}
+.msi .doc
+{
+    display: flex;
+    flex-direction: column;
+    border-left: solid #ffffff 3px;
+    width: 565px;
+    height: 480px;
+}
+.msi .hang{
+    display: flex;
+    flex-direction: row;
+    width: 565px;
+    border-top: solid #ffffff 3px;
+    justify-content: space-between;
+}
+.msi .a1
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 30px;
+    top: 300px;
+    font-size: 25px;
+    color: #f2eded;
+    width: 283px;
+}
+
+.msi .a2
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 558px;
+    top: 148px;
+    font-size: 25px;
+    color: #f2eded;
+    width: 383px;
+    font-weight: 400;
+}
+
+.msi .a4
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 817px;
+    top: 787px;
+    font-size: 18px;
+    color: #f2eded;
+    width: 263px;
+    font-weight: 600;
+}
+.hang .anhlevi img
+{
+    width: 297px;
+    height: 201px;
+}
+.hang .anhlevi
+{
+    position: relative;
+
+}
+.hang .anhlevi .levi
+{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    font-size: 18px;
+    color: #f2eded;
+    width: 263px;
+    font-weight: 600;
+}
+.hang .anhhera 
+{
+    position: relative;
+
+}
+.hang .anhhera .a4
+{
+    position: absolute;
+    top: 100px;
+    left: 3px;
+    font-size: 18px;
+    color: #f2eded;
+    width: 263px;
+    font-weight: 600;
+}
+
+.kecuoi
+{
+    display: flex;
+    flex-direction: row;   
+    width: 1103px;
+    justify-content: space-between;
+    border-bottom: green solid;
+}
+.trai 
+{
+    width: 665px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 775px;
+}
+.trai .h21
+{
+    width: 62px;
+    height: 50px;
+    display: flex;
+    color: #f69631;
+    border-bottom:#f69631 solid 2px;
+    position: relative;
+}
+.trai .h22
+{
+    position:absolute;
+    top: 0px;
+    left: 50px;
+}
+
+.phai
+{
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.phai .tittle
+{
+    width: 62px;
+    height: 50px;
+    display: flex;
+    color: #f69631;
+    border-bottom:#f69631 solid 2px;
+    position: relative;
+}
+.phai .tittle .h22
+{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    top: 0px;
+    left: 50px;
+    width: 200px;
+}
+.trai .kaisa
+{
+    display: flex;
+    flex-direction: row;
+    width: 665px;
+}
+.trai .kaisa img
+{
+   width: 200px;
+   height: 145px;
+}
+.trai .kaisa .text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.trai .tamamo
+{
+    display: flex;
+    flex-direction: row;
+    width: 665px;
+}
+.trai .tamamo img
+{
+   width: 200px;
+   height: 145px;
+}
+.trai .tamamo .text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.trai  p
+{
+    color: gray;
+}
+
+.trai .tashaAcher
+{
+    display: flex;
+    flex-direction: row;
+    width: 665px;
+}
+.trai .tashaAcher img
+{
+   width: 200px;
+   height: 145px;
+}
+.trai .tashaAcher .text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.trai .cosplay
+{
+    display: flex;
+    flex-direction: row;
+    width: 665px;
+}
+.trai .cosplay img
+{
+   width: 200px;
+   height: 145px;
+}
+.trai .cosplay .text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.phai p
+{
+    font-weight: bold;
+}
+
+.bottom
+{
+    display: flex;
+    width: 1103px;
+    height: 300px;
+    background-color: rgb(65, 64, 64);
+    justify-content: center;
+    color: #e2bfbf ;
+}
